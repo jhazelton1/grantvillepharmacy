@@ -1,0 +1,111 @@
+#header-nav {
+  flex-direction: row;
+}
+
+#footer-nav {
+  flex-direction: column;
+}
+
+.banner {
+  height: 100vh;
+  background: linear-gradient(-225deg, rgba(30, 30, 30, 0.6) 30%, rgba(46, 46, 46, 0.5) 80%), url("photos/grantvillepharmacylogo360x200.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-item {
+  padding: 0px 12.5px 0px 12.5px;
+  font-size: 14;
+}
+
+.quicklinks li {
+  border-bottom: solid 1px #a5a5a5;
+}
+
+.carousel {
+  border: solid 10px #252627;
+}
+
+.carousel-inner>.item>img {
+  width: 640px;
+  height: 460px;
+}
+
+.carousel-item {}
+
+.carousel-wrapper {
+  margin: 0px 0px 30px 0px;
+}
+
+.container-fluid {
+  background-color: #252627;
+}
+
+.layout-wrapper {
+  padding-top: 60px;
+  background-color: #FCFCFC;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  border: 1px solid #000000;
+  position: relative;
+  padding: 10px;
+  height: 320px;
+  margin: 3px 0px 3px 0px;
+  font-size: 3vw;
+  justify-content: space-around;
+}
+
+.content-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-content p {
+  font-size: 2.0vw;
+}
+
+.content-title {
+  font-size: 2.4vw;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.content-wrapper {
+  padding: 25px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+.contact-wrapper {
+  padding-top: 60px;
+  background-color: #FCFCFC;
+}
+
+.map-wrapper {
+  padding-bottom: 60px;
+}
+
+.feedback-wrapper {
+  padding: 30px;
+}
